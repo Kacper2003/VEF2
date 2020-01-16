@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box; 
+}
+body {
+    margin: 1em auto;
+    max-width: 60em;
+    font-family: 'Quicksand', sans-serif;
+}
+/* GRID AREA */
+
+.haus {
+    grid-area: haus;
+    text-align: center;
+    color: white;
+    background-color: #1a0315;
+}
+.topnav {
+    grid-area: topnav;
+}
+.content {
+    grid-area: content;
+    color: white;
+}
+.foot {
+    grid-area: foot;
+}
+/* dalkar i container */
+.as1 {
+    grid-area: as1;
+    background-color: #6e3667;
+    padding: 1em;
+}
+.as2 {
+    grid-area: as2;
+    background-color: #6e3667;
+    padding: 1em;
+}
+.art1 {
+    grid-area: art1;
+    background-color: #6e3667;
+    padding: 1em;
+}
+/* Template area */
+.container {
+    display: grid;
+    grid-gap: 0;
+    grid-template-areas:
+        "topnav"    
+        "haus"
+        "content"
+        "foot"
+}
+.content {
+    display: grid;
+    grid-template-areas:
+        "art1 art1 as1"
+        "as2 as2 as1";
+    grid-template-columns: 1fr 3fr 1fr;
+}
+/* top menu */
+.topmenu , .footmenu {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    margin:0;
+    padding:1em 0;
+    background-color: #88D317;
+    background-image: linear-gradient(to bottom right, #88D317, #689425);
+}
+.topmenu li, .footmenu li {
+    list-style-type: none;
+}
+/* vinnugogn */
+.content, .art1, .as1, .as2, .haus, .foot, .container {
+    border: thick black;
+}
+h1,h2,h3 {
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+}

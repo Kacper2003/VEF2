@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box; 
+}
+body {
+    margin: 1em auto;
+    max-width: 60em;
+    font-family: 'Montserrat', sans-serif;
+}
+/* GRID AREA */
+
+.haus {
+    grid-area: haus;
+    text-align: center;
+}
+.topnav {
+    grid-area: topnav;
+}
+.content {
+    grid-area: content;
+}
+.foot {
+    grid-area: foot;
+}
+/* dalkar i container */
+.as1 {
+    grid-area: as1;
+    background-color: #e6e6e6;
+    padding: 1em;
+}
+.as2 {
+    grid-area: as2;
+    background-color: #e6e6e6;
+    padding: 1em;
+}
+.art1 {
+    grid-area: art1;
+    background-color: #e6e6e6;
+    padding: 1em;
+}
+/* Template area */
+.container {
+    display: grid;
+    grid-gap: 0;
+    grid-template-areas:
+        "topnav"    
+        "haus"
+        "content"
+        "foot"
+}
+.content {
+    display: grid;
+    grid-gap:2em;
+    grid-template-areas:
+        "art1 art1"
+        "as1 as2 ";
+    grid-template-columns: 2fr 2fr;
+    padding: 2em 2em;
+}
+/* top menu */
+.topmenu , .footmenu {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    padding:1em 0;
+    background-color: firebrick;
+}
+.topmenu li, .footmenu li {
+    list-style-type: none;
+}
+/* vinnugogn */
+
+.virkur {
+    color: white;
+}
+h1, h2, h3, virkur {
+    font-family: 'Comfortaa', cursive;
+}

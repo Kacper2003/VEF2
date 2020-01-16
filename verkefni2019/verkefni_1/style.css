@@ -1,0 +1,17 @@
+h1 {
+    color:plum;
+    font-size:2em;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50em;
+    border: 2px solid violet;
+    margin: 1em auto;
+    padding: 1em;
+    background-color: wheat
+}
+h6 {
+    font-size:2em;
+    color: palevioletred;
+}
+
