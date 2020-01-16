@@ -14,3 +14,6 @@
         * git checkout - leyfir manni að fara á milli branches gerðar með git branch
         * git branch - leyfir manni að gera, breyta eða eyða branches
 
+4. Hvað er útgáfustýring (Version Control)?
+        * Version Control - Er til að skoða breytingar á documents, forritum og síðum
+  
