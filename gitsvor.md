@@ -24,3 +24,5 @@
 6. Hversu oft telur þú að eigi að gera færslur (commit) í verkefni?
         * Það ætti að gera færslur eftir hverja breytingu sem er hægt að commenta hvað var gert
 
+7. Hvað er átt við með “Working Directory”?” og “Staging Area” í GIT?
+        * Working Directory er þar sem notandi vinnur og lætur hann það yfir á Staging Area áður en hann gerir commit í repository
