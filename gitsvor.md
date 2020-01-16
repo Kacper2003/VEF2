@@ -21,3 +21,6 @@
         * Helstu kostir við GIT eru að það er gott þegar margir eru að vinna saman í einu verkefni og það er alltaf hægt að fara til baka áður en breytingar voru gerðar
         * grein 1 
 
+6. Hversu oft telur þú að eigi að gera færslur (commit) í verkefni?
+        * Það ætti að gera færslur eftir hverja breytingu sem er hægt að commenta hvað var gert
+
