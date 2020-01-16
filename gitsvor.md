@@ -9,3 +9,8 @@
         * git status - sýnir breytingar í möppu sem við erum stödd í
         * git diff - sýnir muninn á einhverjum tvemur hlutum
   
+3. Hvað gera eftirfarandi Git skipanir saman? Hvaða gagn er að þeirri aðgerð?
+        * git log - sýnir hvaða commits hafa verið gerð á milli tíma bilinu sem er gefið
+        * git checkout - leyfir manni að fara á milli branches gerðar með git branch
+        * git branch - leyfir manni að gera, breyta eða eyða branches
+
